@@ -59,8 +59,23 @@ print(f"maximum value from list: {max(numbersList)}")
 
 # 6. Create a dictionary of students and scores and print out a student’s score.
 
+'''
+students = {"student1" : 56, "student2" : 49, "student3" : 78}
+print(f"student1 marks is: {students["student1"]}")
+
+'''
 
 # 7. Create a dictionary with the key being names and values being ages and then delete the second key/value pair.
+
+dictionary = {"ADARSH": 22, "ALOK": 17, "AMAN": 23}
+
+print(f" dictionary before deletion: {dictionary}")
+
+keyList = list(dictionary.keys()) # variable keyList creates & stores LIST of keys of dictionary DICTIONARY
+keyNeedToDel = keyList[1] # gets that key of second key/value pair needs to be deleted
+del dictionary[keyNeedToDel] # that got key is passed with dictionary for deletion
+
+print(f" dictionary after deletion of second member: {dictionary}")
 
 # 8. Create a dictionary of names and ages and then print out all the keys and values
 
