@@ -66,6 +66,7 @@ print(f"student1 marks is: {students["student1"]}")
 '''
 
 # 7. Create a dictionary with the key being names and values being ages and then delete the second key/value pair.
+'''
 
 dictionary = {"ADARSH": 22, "ALOK": 17, "AMAN": 23}
 
@@ -76,6 +77,7 @@ keyNeedToDel = keyList[1] # gets that key of second key/value pair needs to be d
 del dictionary[keyNeedToDel] # that got key is passed with dictionary for deletion
 
 print(f" dictionary after deletion of second member: {dictionary}")
+'''
 
 # 8. Create a dictionary of names and ages and then print out all the keys and values
 
