@@ -1,3 +1,20 @@
+"""
+Docstring for PythonCore.Day_12.BasicsExercise
+
+1. List - ["item1", "item2", "item3",........and so on]
+>> lists are mutable within bracket [] used over there
+
+
+2. Dictionary - {"key1": value1, "key2": value2, "key3": value3,........and so on}
+>> it is always in key value pairs within curly braces {}
+
+3. tuple - ("item1", "item2", "item3",..................and so on)
+>> tuple can not be modified or changed means it is immutable
+>> this is in paranthesis ()
+
+"""
+
+
 # 1. Create a list of names and print the second item.
 
 '''
@@ -80,7 +97,22 @@ print(f" dictionary after deletion of second member: {dictionary}")
 '''
 
 # 8. Create a dictionary of names and ages and then print out all the keys and values
+'''
+studentDictionary = {"Akash": 34, "Sodhi": 37, "Goli": 12, "Iyer": 37}
 
+print(f"This student name & their ages: {sorted(studentDictionary)}")
+
+'''
 # 9. Create a tuple of your favorite movies
+'''
+movieTuple = {'tmkoc', 'interstellar', 'bol-bachchan'}
 
+print(f"My fav. movies are: {movieTuple}")
+'''
 # 10. Create a tuple and print all the items from the first to third index.
+'''  
+charactersTmkoc = {'jethalal', 'hathi', 'daya', 'champak', 'popant'}
+print(f"tuple's item values from first to third index: {charactersTmkoc[1:4]} ")
+
+'''
+
