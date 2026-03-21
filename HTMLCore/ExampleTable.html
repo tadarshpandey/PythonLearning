@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Table using Attributes Example</title>
+</head>
+<body>
+
+    <!--
+        The <table> tag uses attributes for styling and structure:
+        - border: defines the width of the table border.
+        - cellpadding/cellspacing: controls the space within/between cells.
+        - bgcolor: sets the background color of the table (deprecated).
+        - align: aligns the table on the page.
+    -->
+    <table border="1" cellpadding="10" cellspacing="0" bgcolor="#f2f2f2" align="center">
+        
+        <!--
+            <caption> defines the table caption.
+            The align attribute positions the caption relative to the table.
+        -->
+        <caption align="bottom">Sample Data Table</caption>
+
+        <!--
+            <thead> defines the table header section.
+            The bgcolor attribute sets a specific background color for the header row.
+        -->
+        <thead bgcolor="#cccccc">
+            <tr>
+                <!--
+                    <th> defines table header cells.
+                    The width attribute specifies column width.
+                -->
+                <th width="150">Item ID</th>
+                <th width="250">Description</th>
+                <th width="100">Status</th>
+            </tr>
+        </thead>
+
+        <!-- <tbody> defines the main body content of the table. -->
+        <tbody>
+            <!-- 
+                <tr> defines a table row.
+                The valign attribute aligns cell content vertically.
+            -->
+            <tr valign="top">
+                <td>001</td>
+                <!-- <td> defines a standard table data cell. -->
+                <td>Widget A - high quality durable plastic.</td>
+                <td>Active</td>
+            </tr>
+            <tr bgcolor="#ffffff" valign="top">
+                <td>002</td>
+                <td>Gadget B - requires assembly.</td>
+                <td>Pending</td>
+            </tr>
+             <!--
+                This row uses the colspan attribute to span a single cell across multiple columns.
+             -->
+            <tr>
+                <td colspan="3" align="center">End of Inventory List</td>
+            </tr>
+        </tbody>
+        
+        <!-- <tfoot> defines the table footer section. -->
+        <tfoot>
+            <tr>
+                <td colspan="3">Total items listed: 2</td>
+            </tr>
+        </tfoot>
+
+    </table>
+
+</body>
+</html>

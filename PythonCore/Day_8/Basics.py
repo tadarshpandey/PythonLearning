@@ -2,17 +2,18 @@
 
 # Variables and Multiple Assignments
 
-# age = 20
-# print(f"Age: {age}, he is years old")
 
-# name, age = "anshu", 22
-# print(f"Name: {name}, Age: {age}")
+age = 20
+print(f"Age: {age}, he is years old")
+
+name, age = "anshu", 22
+print(f"Name: {name}, Age: {age}")
 
 # slicing
 
-# sent = "i am coding a python program"
+sent = "i am coding a python program"
 
-# print(f"{sent[2:8]}") 
+print(f"{sent[2:8]}") 
 
 # '''
 # in slicing it includes the start index but excludes the end index
@@ -20,11 +21,12 @@
 
 
 # Placeholders in strings
-# sentence = "%s is %d years old"
+sentence = "%s is %d years old"
 
-# print(f"{sentence %("anshu", 21)}")
+print(f"{sentence %("anshu", 21)}")
 
 # format strings
+
 sentence = "{} is {} years old"
 
 while True:
