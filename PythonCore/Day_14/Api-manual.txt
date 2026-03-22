@@ -1,0 +1,5 @@
+Api.py :
+
+> writing this code for just practice 
+> this note is about how it is gonna execute or run effortlessly
+> have properly appropriate libraries installed & run this command to execute code 'uvicorn file_name:app --reload'
