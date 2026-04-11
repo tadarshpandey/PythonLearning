@@ -8,10 +8,13 @@ int main(){
     for(int i = 0 ; i < 5; i++){
         printf("%d ", arr[i]);
     }
-    printf("\nArray after adding 5: ");
+    
     for(int i = 0 ; i < 5; i++){
         arr[i] = arr[i] + 5;
     }
+    
+    printf("\nArray after adding 5: ");
+
     for(int i = 0 ; i < 5; i++){
         printf("%d ", arr[i]);
     }
