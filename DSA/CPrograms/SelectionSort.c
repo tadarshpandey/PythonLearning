@@ -1,6 +1,7 @@
 #include<stdio.h>
 
 void main(){
+    
     int i , j, a[100], n, temp;
     printf("Enter the size of the array:\n");
     scanf("%d", &n);
